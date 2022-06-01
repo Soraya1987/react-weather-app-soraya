@@ -13,7 +13,8 @@ export default function Weather() {
     wind: 10
   };
   return (
-    <div className="weather  border">
+      <div>
+          <div className="weather  border">
       <div className="overview border p-2">
         <div className="row">
           <div className="col-8">
@@ -79,6 +80,15 @@ export default function Weather() {
           </div>
         </div>
       </div>
+      
     </div>
+    <small>
+                <a href="https://github.com/Soraya1987/react-weather-app-soraya" target="_blank">
+                    open-source code
+                </a>
+                by Soraya Mahmoudi
+      </small>
+      </div>
+    
   );
 }
